@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Landing Page</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+      .hero {
+        background-image: url("https://images.pexels.com/photos/21558651/pexels-photo-21558651/free-photo-of-espresso-with-croissant.jpeg?auto=compress&cs=tinysrgb&w=1200&h=1000&dpr=2");
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 100px 0;
+        text-align: center;
+      }
+      .content-section {
+        padding: 60px 0;
+      }
+      * {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Coffee Shop</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+      <h1>Welcome to Our Coffee Shop</h1>
+      <p>
+        Discover the finest coffee in town and unwind in our cozy atmosphere.
+      </p>
+      <a href="#" class="btn btn-outline-light">Explore Our Menu</a>
+    </div>
+
+    <!-- Content Section -->
+    <div class="content-section container">
+      <div class="row">
+        <div class="col-md-4">
+          <img
+            src="https://images.pexels.com/photos/4109750/pexels-photo-4109750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            class="img-fluid"
+            alt="Placeholder Image"
+          />
+          <h2>Fresh Coffee Beans</h2>
+          <p>
+            We source the best coffee beans from around the world to ensure the
+            perfect cup every time.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img
+            src="https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg"
+            class="img-fluid"
+            alt="Placeholder Image"
+          />
+          <h2>Expert Baristas</h2>
+          <p>
+            Our baristas are trained to make the most delicious coffee beverages
+            with precision and care.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img
+            src="https://images.pexels.com/photos/3766227/pexels-photo-3766227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            class="img-fluid"
+            alt="Placeholder Image"
+          />
+          <h2>Cozy Ambiance</h2>
+          <p>
+            Relax and enjoy your coffee in a warm, inviting environment that's
+            perfect for work or leisure.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>Contact Us</h5>
+            <p>123 Coffee St, Coffee City, CO 12345</p>
+            <p>Email: info@coffeeshop.com</p>
+            <p>Phone: (123) 456-7890</p>
+          </div>
+          <div class="col-md-4">
+            <h5>Opening Hours</h5>  
+            <p>Monday - Friday: 8am - 8pm</p>
+            <p>Saturday - Sunday: 9am - 5pm</p>
+          </div>
+          <div class="col-md-4">
+            <h5>Follow Us</h5>
+            <div class="social-media col-3 p-0 mb-2">
+              <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a>
+              <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+              <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+            </div>
+          </div>
+        </div>
+        <p class="col-md-6 offset-md-4">© 2024 Coffee Shop. All rights reserved.</p>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
